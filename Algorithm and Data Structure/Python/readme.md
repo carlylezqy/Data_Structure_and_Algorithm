@@ -13,8 +13,8 @@ Input: 14
 Output：None  
 Explanation: 14 is not amazing since it includes another prime factor 7  
 
-How to check your answer:
-If you test 1845281250, your program should give (2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5)
-If you test 3690562500, your program should give (2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5);
-If you test 1230187500, your program should give (2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5);
-If you test 10023750, your program should give None;
+How to check your answer:  
+If you test 1845281250, your program should give (2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5);  
+If you test 3690562500, your program should give (2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5);  
+If you test 1230187500, your program should give (2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 5);  
+If you test 10023750, your program should give None;  
