@@ -54,12 +54,12 @@ Your input grammar is:
 
 	simple_grammar = """ 
 	sentence     =>  noun_phrase verb_phrase noun_phrase => Article Adj* noun 
-	Adj          =>  蓝色的 |  好看的 | 小小的 |  年轻的 """ 
+	Adj          =>  蓝色的 |  好看的 | 小小的 |  年轻的  """ 
 	Adj*         =>  null  | Adj Adj* 
-	verb_phrase  =>  verb noun_phrase 
 	Article      =>  一个 | 这个 
-	noun         =>  女人 | 篮球 | 桌子 | 小猫
 	verb         =>  看着 | 听着 | 看见 
+	noun         =>  女人 | 篮球 | 桌子 | 小猫
+	verb_phrase  =>  verb noun_phrase
 
 Your task is define a function called generate,  if we call generate(‘sentence’), you could see some sentences like: 
 \>>generate(“sentence”)  
