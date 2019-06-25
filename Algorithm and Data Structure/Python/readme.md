@@ -62,7 +62,7 @@ Your input grammar is:
 	verb_phrase  =>  verb noun_phrase
 
 Your task is define a function called generate,  if we call generate(‘sentence’), you could see some sentences like: 
-\>>generate(“sentence”)  
+\>> generate(“sentence”)  
 Output: 这个蓝色的女人看着一个小猫  
 \>> generate(“sentence”)  
 Output: 这个好看的小猫坐在一个女人  
