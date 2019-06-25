@@ -62,7 +62,7 @@ Your input grammar is:
 	Adj =>   蓝色的 |  好看的 | 小小的 |  年轻的 """ 
 
 Your task is define a function called generate,  if we call generate(‘sentence’), you could see some sentences like: 
-/>> generate(“sentence”)  
+\>>generate(“sentence”)  
 Output: 这个蓝色的女人看着一个小猫  
-/>> generate(“sentence”)  
+\>> generate(“sentence”)  
 Output: 这个好看的小猫坐在一个女人  
