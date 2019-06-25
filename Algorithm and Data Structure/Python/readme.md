@@ -4,10 +4,10 @@ Each square on the grid is allocated in a spiral pattern starting at a location 
 counting up while spiraling outward. For example, the first few squares are allocated like this:  
 
 17 16 15 14 13  
-18 5 4 3 12  
-19 6 1 2 11  
-20 7 8 9 10  
-21 22 23---> …  
+18  5  4  3 12  
+19  6  1  2 11  
+20  7  8  9 10  
+21 22 23  …  …   
 
 While this is very space-efficient (no squares are skipped), requested data must be carried back to
 square 1 (the location of the only access port for this memory system) by programs that can only
