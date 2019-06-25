@@ -60,3 +60,9 @@ Your input grammar is:
 	noun =>   女人 |  篮球 | 桌子 | 小猫
 	verb => 看着 | 听着 | 看见 
 	Adj =>   蓝色的 |  好看的 | 小小的 |  年轻的 """ 
+
+Your task is define a function called generate,  if we call generate(‘sentence’), you could see some sentences like: 
+>> generate(“sentence”)  
+Output: 这个蓝色的女人看着一个小猫  
+>> generate(“sentence”)  
+Output: 这个好看的小猫坐在一个女人  
