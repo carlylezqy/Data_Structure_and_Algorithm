@@ -7,7 +7,7 @@ counting up while spiraling outward. For example, the first few squares are allo
 18  5  4  3 12  
 19  6  1  2 11  
 20  7  8  9 10  
-21 22 23  …  …   
+21 22 23 24 25   
 
 While this is very space-efficient (no squares are skipped), requested data must be carried back to
 square 1 (the location of the only access port for this memory system) by programs that can only
