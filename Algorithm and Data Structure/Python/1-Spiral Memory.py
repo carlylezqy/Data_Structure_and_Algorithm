@@ -27,7 +27,7 @@ def make_array(length):
         while index_x > int((border_y + 1)/2) - circle and index_y == int((border_y + 1)/2) - circle:
             index_x -= 1
             squares[index_y, index_x] = value
-            print('<-',index_x,index_y)
+            print('<-',index_x, index_y)
             value += 1
         print(squares)
         while index_y < border_y and index_x == int((border_y + 1)/2) - circle:
