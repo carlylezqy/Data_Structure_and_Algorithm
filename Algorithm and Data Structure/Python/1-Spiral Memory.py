@@ -33,7 +33,7 @@ def make_array(length):
         while index_y < border_y and index_x == int((border_y + 1)/2) - circle:
             index_y += 1
             squares[index_y, index_x] = value
-            print('.',index_x,index_y)
+            print('.', index_x, index_y)
             value += 1
         border_x += 1
         border_y += 1
