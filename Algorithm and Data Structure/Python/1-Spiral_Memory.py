@@ -6,7 +6,7 @@ class SpiralMemory:
     number = 0
     def __init__(self,number):
         self.number = number
-        self.length = self.default_length()
+        self.length = self.default_length() #给出推荐长度
         if self.length%2 == 0:
             self.length += 1
         self.squares = self.make_array(self.length)
@@ -22,13 +22,14 @@ class SpiralMemory:
 
     def make_array(self,length):
         index_x = index_y = int(length/2)
-        border_x = int(length/2) + 1
-        border_y = int(length/2)
+        border_x = int(length/2) + 1  # 创建坐标边界栅格（x）
+        border_y = int(length/2)      # 创建坐标边界栅格（y）
+        
         self.squares = np.zeros([length,length])
         self.squares[index_y,index_x] = 1
         value = 2
             
-        half_circle = 1
+        half_circle = 1  # 每1/2圈 自增1
 
         while value < length*length:
             #print(value,length*length)
