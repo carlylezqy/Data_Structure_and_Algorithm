@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Algorithm and Data Structure/C&amp;C++/1-算法基础/1-2/1-2.cpp" charset="JIS_X0201" />
+  </component>
 </project>
