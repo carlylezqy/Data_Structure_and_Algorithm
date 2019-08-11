@@ -6,7 +6,17 @@ using namespace std;
 // 返回值：题目所求答案，即最大面积
 int getAnswer(int n, int *height) {
     int area,maxArea = 0;
-
+    stack < int > ordered;
+    ordered.push(0);
+    for(int i=1; i <= n+1; i++){
+        while(height[ordered.top()] > height[i]){
+            int thisHight = height[ordered.top()];
+            ordered.pop();
+            area = thisHight * (i - ordered.top() -1);
+            maxArea = max(maxArea,area);
+        }
+        ordered.push(i);
+    }
     return maxArea;
 }
 
