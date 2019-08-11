@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CS101"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS101">
+				<Option output="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CS101" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS101"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS101/fast">
+				<Option output="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CS101" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS101/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/1-A+B问题.cpp">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/2-栈排序.cpp">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/2-栈排序.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/2-栈排序.out.dSYM/Contents/Info.plist">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/2-栈排序.out.dSYM/Contents/Resources/DWARF/2-栈排序.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/2-栈排序.xlsx">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/3-直方图最大面积.cpp">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/3-直方图最大面积.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/3-直方图最大面积.out.dSYM/Contents/Info.plist">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/3-直方图最大面积.out.dSYM/Contents/Resources/DWARF/3-直方图最大面积.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/3-直方图最大面积.xlsx">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/4-最大红矩形.cpp">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/4-最大红矩形.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/4-最大红矩形.out.dSYM/Contents/Info.plist">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/4-最大红矩形.out.dSYM/Contents/Resources/DWARF/4-最大红矩形.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/bits/stdc++.h">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/Week_0/bits/stdc++.out">
+			<Option target="CS101"/>
+		</Unit>
+		<Unit filename="/Users/caujoeng/CLionProjects/DSA/CS101/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -25,6 +25,10 @@
         "__config": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "functional": "cpp"
-    }
+        "functional": "cpp",
+        "iosfwd": "cpp",
+        "new": "cpp",
+        "numeric": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
