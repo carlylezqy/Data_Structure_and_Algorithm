@@ -1,16 +1,32 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/caujoeng/CLionProjects/DSA/CS101
--- Configuring done
-CMake Error at CMakeLists.txt:8 (add_executable):
-  Cannot find source file:
+-- The C compiler identification is AppleClang 10.0.1.10010046
+-- The CXX compiler identification is AppleClang 10.0.1.10010046
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
 
-    Week_0/2-栈排序.out
+    "/Library/Developer/CommandLineTools/usr/bin/cc"
 
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_8e25e/fast 
+    /Volumes/Time Machine/Program/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e25e.dir/build.make CMakeFiles/cmTC_8e25e.dir/build
+    make: /Volumes/Time: No such file or directory
+    make: *** [cmTC_8e25e/fast] Error 1
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
 
 
-CMake Error at CMakeLists.txt:8 (add_executable):
-  No SOURCES given to target: CS101
-
-
--- Build files have been written to: /Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CMakeFiles/CMakeError.log".
