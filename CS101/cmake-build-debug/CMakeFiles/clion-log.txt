@@ -14,10 +14,10 @@ CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/M
 
     Change Dir: /Users/caujoeng/CLionProjects/DSA/CS101/cmake-build-debug/CMakeFiles/CMakeTmp
     
-    Run Build Command(s):/usr/bin/make cmTC_8e25e/fast 
-    /Volumes/Time Machine/Program/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e25e.dir/build.make CMakeFiles/cmTC_8e25e.dir/build
+    Run Build Command(s):/usr/bin/make cmTC_de36f/fast 
+    /Volumes/Time Machine/Program/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_de36f.dir/build.make CMakeFiles/cmTC_de36f.dir/build
     make: /Volumes/Time: No such file or directory
-    make: *** [cmTC_8e25e/fast] Error 1
+    make: *** [cmTC_de36f/fast] Error 1
     
 
   
