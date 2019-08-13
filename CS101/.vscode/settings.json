@@ -28,7 +28,8 @@
         "functional": "cpp",
         "iosfwd": "cpp",
         "new": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "__locale": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
