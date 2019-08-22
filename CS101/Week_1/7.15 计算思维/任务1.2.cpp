@@ -12,7 +12,7 @@ void Downstairs_B(int height, int step);
 
 void Downstairs_A(int i,int start){
     // i: i级台阶 j: 即将下降的台阶数
-    // start: 从第start步开始
+    // start: 从第start步开始
     for(int j=3; j>0; j--){
         if(i >= j){
             take[start] = j;
@@ -43,6 +43,12 @@ void Downstairs_B(int height, int step){
         if(new_height < 0) continue; // 是否合法
         path[step] = i; // 当前步数记录到方案细节之中
         Downstairs_B(new_height, step+1); // 继续下降
+    }
+}
+
+void Downstairs_rewrite(int height, int step){
+    if(){
+
     }
 }
 
