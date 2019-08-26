@@ -164,7 +164,7 @@ void Vector<T> :: bubble(Rank lo, Rank hi){
 
 ## Huffman: PFC Coding
 "1/010/011/00" = "MAIN"
-### Huffman: Unweighted Optimal Complete
+### Huffman / Tree: Unweighted Optimal Complete
 
     ald(T) * 4 = 2+3+3+1 = 9 (三层)
     "1/010/011/00" = "MAIN"
@@ -178,6 +178,8 @@ void Vector<T> :: bubble(Rank lo, Rank hi){
 二叉树优化原则：在最深层拥有两个叶子的结点与最浅层拥有一个叶子节点的距离相差2以上时，两个叶子的结点的父节点可以与最浅层的节点互换以达到最优化（满二叉树）。
 
 树在数据结构中占有非常重要的地位。本文从树的基本概念入手，给出完美(Perfect)二叉树，完全(Complete)二叉树和完满(Full)二叉树的区别。
+
+$$ O(\log_{a}n) = O(\log_{a}b    \log_{b}n) = O(\log_{b} n) )$$
 
 ### 树(Tree)
 
