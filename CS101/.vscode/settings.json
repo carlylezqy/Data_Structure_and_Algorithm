@@ -29,7 +29,10 @@
         "iosfwd": "cpp",
         "new": "cpp",
         "numeric": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "ios": "cpp",
+        "algorithm": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
