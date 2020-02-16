@@ -1,0 +1,47 @@
+**Maximal Rect in a histogram**
+Matrix 矩阵（0-1）
+Bruteforce 暴力
+Divide-and-conquer algorithm 分治 
+Pivot
+
+```C++
+maxRect(H, low, high)
+k = findPivot(H, low, high)
+```
+
+```C++
+maxRect(H, low, k)
+maxRect(H, k + 1, high)
+H[k] (high - low)
+return max(???)
+```
+
+|   | $2 \cdot T(n/2)$  | $n \log{n}$  |
+| --- | --- | --- |
+| Worst | $T(n−1)$ | $n^2$ |
+
+$$ T(n) = ??? + O() $$
+
+
+|  | 构造 | 存储 | 查询 |
+| --- | --- | --- | --- |
+|  LookUpTable | $n^2$ | $n^2$ | $1$ |
+| Segment Tree | $n \log{⁡n}$ | $n$ | $n \log{⁡n}$ |
+
+
+
+```C++
+maxRect(H[], n)
+stack(rank) M;
+int maxRect = 0;
+
+for(rank k=0; k<n; )
+	if(M.empty() || H[M.top()]) <= H[k])
+		M.push(k); k++;
+	else // H[M[top]] * (H[M[top-1]], k)
+		t = M.pop();
+		maxRect = max(maxRect,
+				     H(t) * ( ??????? k - M.top()) - 1);
+							     M.empty?
+	while(!M.empty()) 
+```

@@ -66,6 +66,7 @@ improvedGnomesort(S[], n){ // nested loops and still O(n^2)
 + 正确性：经至多 $n$ 趟扫描后，算法必然终止，且能给出正确解答
 ### 1.Basic Version
 拆分版
+
 ```C++
 template <typename T>
 void Vector<T> :: bubbleSort(Rank lo, Rank hi){
@@ -81,6 +82,7 @@ void Vector<T> :: bubble(Rank lo, Rank hi){
 
 ```
 整合版
+
 ```C++
 template <typename T> //0 <= lo < hi <= size
 void Vector<T> :: bubbleSort(Rank lo, Rank hi){
@@ -93,7 +95,7 @@ void Vector<T> :: bubbleSort(Rank lo, Rank hi){
 ```
 
 + $n-1$ 趟起泡扫描一定足够，但往往不必，比如...
-+ [hi] 就位后，[lo, hi）可能已经有序——此时，应该可以...
++ $[hi]$ 就位后，$[lo, hi)$ 可能已经有序——此时，应该可以...
 
 ### 2.提前终止
 拆分版
