@@ -18,9 +18,12 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}"
+            ]
         }
     ],
     "version": 4
 }
-
