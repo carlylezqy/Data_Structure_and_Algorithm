@@ -28,3 +28,16 @@ for (i, j) in zip(it, it2):
 
 
 # About more: https://www.sejuku.net/blog/23570
+
+
+# numpy相关
+## 快速创建指定大小的递进矩阵
+import numpy as np
+
+aH = 100
+aW = 100
+y = np.arange(aH).repeat(aW).reshape(aW, -1)
+print(y)
+
+## 矩阵拉伸
+
