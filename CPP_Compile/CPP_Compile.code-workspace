@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			{
+				"name": "(lldb) 启动",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "输入程序名称，例如 ${workspaceFolder}/a.out",
+				"args": [],
+				"stopAtEntry": false,
+				"cwd": "${workspaceFolder}",
+				"environment": [],
+				"externalConsole": false,
+				"MIMode": "lldb"
+			}
+		]
+	},
+	"settings": {
+		"files.associations": {
+			"ciso646": "cpp",
+			"vector": "cpp",
+			"iosfwd": "cpp",
+			"iterator": "cpp"
+		}
+	}
+}
