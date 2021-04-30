@@ -10,7 +10,8 @@
             "program": "${workspaceFolder}/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "preLaunchTask": "Build with Clang"
+            "preLaunchTask": "Build with Clang",
+            "console": "integratedTerminal"
         }
     ]
 }
