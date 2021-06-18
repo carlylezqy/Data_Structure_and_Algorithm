@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/caujoeng/github/Data_Structure_and_Algorithm/coursera.cs.princeton.edu/algs4.jar"
+    ]
+}
