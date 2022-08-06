@@ -15,10 +15,23 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        
+        while list2.next is not None:
+            while list1.next is not None:
+                if list1.val >= list2.val:
+                    pointer = list1.next
+                    list1.next = list2
+                    list2 = list2.next
+                    list1.next.next = pointer
+                else:
+                    pass
+            list1 = list1.next
+            
+        return list1
 # @lc code=end
 
 if __name__ == "__main__":
     solutioin = Solution()
-    output = solutioin.mergeTwoLists(list1=[1,2,4], list2=[1,3,4])
+    list1 = ListNode(1, ListNode(2, ListNode(4)))
+    list2 = ListNode(1, ListNode(3, ListNode(4)))
+    output = solutioin.mergeTwoLists(list1, list2)
     print(output)
